@@ -1,10 +1,11 @@
 import 'react-native-gesture-handler';
 import { StyleSheet } from 'react-native';
 import BottomNavigation from './BottomNavigation';
+import DrawerNavigation from './DrawerNavigation';
 
 export default function App() { 
   return (
-    <BottomNavigation/>
+    <DrawerNavigation/>
   );
 }
 

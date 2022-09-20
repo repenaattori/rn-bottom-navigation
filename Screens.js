@@ -1,6 +1,8 @@
+import { useLayoutEffect } from "react";
 import { View } from "react-native";
 
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
+
     return(
         <View style={{backgroundColor: '#dab304', flex:1}}/>
     );
